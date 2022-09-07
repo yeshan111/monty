@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 	global.fil = fopen(argv[1], "r");
 	if (global.fil == NULL)
 	{
-		dprintf (2, "Error: Can't open file %s\n", argv[1]);
+		dprintf(2, "Error: Can't open file %s\n", argv[1]);
 		exit(EXIT_FAILURE);
 	}
 	while ((bytesr = getline(&global.line, &numbytes, global.fil)) != EOF)

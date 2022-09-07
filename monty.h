@@ -14,7 +14,7 @@
  * @flag: integer
  * @line: string
  * @token: string
- * @opcod: function opcode in Monty
+ * @opco: function opcode in Monty
  * @fil: file
  */
 typedef struct globals
